@@ -6,6 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 function Header() {
+
   return (
     <div className='header'>
         <div className='headerLeft'>
