@@ -1,13 +1,14 @@
 .message {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .message > img {
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
     object-fit: contain;
+    border-radius: 3px;
 }
 
 .messageInfo{
@@ -17,5 +18,14 @@
 .messageTimestamp{
     color: gray;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.messageInfo > p {
+    font-size: 60%;
+}
+
+.messageInfo > h4 {
+    font-size: 70%;
 }

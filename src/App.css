@@ -1,5 +1,7 @@
 body{
     --slack-color : purple;
+    margin: 0px;
+    padding: 0px;
 }
 
 .appBody{

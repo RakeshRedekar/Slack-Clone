@@ -1,32 +1,37 @@
-.chat{
-    width:80%;
-    box-sizing: border-box;
-    padding-bottom: 150px;
+.chat {
+  width: 80%;
+  box-sizing: border-box;
+  padding-bottom: 150px;
 }
 
-.chatHeader{
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 15px 8px 15px; 
-    border-bottom: 0.5px solid lightgray;
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px 8px 15px;
+  border-bottom: 0.5px solid lightgray;
 }
 
-.chatHeaderName{
-    display: flex;
-    align-items: center;
-    font-size: small;
+.chatHeaderName {
+  display: flex;
+  align-items: center;
+  font-size: small;
 }
 
-.chatHeaderName > .MuiSvgIcon-root{
-    height: 15px;
+.chatHeaderName > .MuiSvgIcon-root {
+  height: 15px;
 }
 
-.chatHeaderRight > p{
-    display: flex;
-    align-items: center;
-    font-size: small;
+.chatHeaderRight > p {
+  display: flex;
+  align-items: center;
+  font-size: small;
 }
 
-.chatHeaderRight > p > .MuiSvgIcon-root{
-    height: 15px;
+.chatHeaderRight > p > .MuiSvgIcon-root {
+  height: 15px;
+}
+
+.chatMessages {
+  height: 80vh;
+  overflow-y: scroll;
 }
