@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import Avatar from "@mui/material/Avatar";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 
 function Header() {
   const { user } = useSelector((store) => store);
+
   return (
     <div className="header">
       <div className="headerLeft">
@@ -16,7 +17,7 @@ function Header() {
       </div>
       <div className="headerSearch">
         <SearchIcon />
-        <input type="text" placeholder="Search here" />
+        <input value="" type="text" placeholder="Search here" />
       </div>
       <div className="headerRight">
         <HelpOutlineIcon />

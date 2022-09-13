@@ -55,7 +55,6 @@ function Chat() {
           />
         ))}
       </div>
-      {/* doubtful */}
       <ChatInput channelName={roomDetails?.name} channelID={roomID} />
     </div>
   );

@@ -22,7 +22,6 @@ function Sidebar() {
   const [channels, setChannels] = useState([]);
   const { user } = useSelector((store) => store);
 
-
   useEffect(() => {
     db.collection("rooms").onSnapshot((snapshot) =>
       setChannels(
@@ -33,7 +32,6 @@ function Sidebar() {
       )
     );
   }, []);
-
 
   return (
     <div className="sidebar">
